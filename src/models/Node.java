@@ -5,7 +5,7 @@ public class Node {
     protected int value;
     protected Node next;
     
-    public Node( int value) {
+    public Node(int value) {
         this.value = value;
         this.next = null;
     }

@@ -1,4 +1,4 @@
-import controllers.Stack;
+import controllers.Stack ;
 import models.Node;
 
 public class App {
