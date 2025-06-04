@@ -48,7 +48,16 @@ public class Stack {
         System.out.println();
     }
 
-    
+    public int size(){
+        Node aux = top;
+        int cont = 0;
+        while (aux != null){
+            System.out.println(aux.getValue()+ " | ");
+            aux = aux.getNext();
+            cont++;
+        }
+        return cont;
+    }
 
 
 }
