@@ -13,7 +13,7 @@ public class Stack {
     }
 
     //Metodo que ingresa un valor int
-    public void push(int value){
+    public void push (int value){
         Node newNode = new Node (value);
         newNode.setNext(top);
         top = newNode;

@@ -10,6 +10,6 @@ public class App {
     stack.printStack();
     stack.pop();
     stack.peek();
-    stack.printStack;
+    stack.printStack();
 
 }
