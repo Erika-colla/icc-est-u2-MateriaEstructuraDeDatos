@@ -69,4 +69,17 @@ public class Cola {
         }
         return count;
     }
+
+    public void printCola() {
+        Node current = primero;
+        while (current != null) {
+            System.out.print(current.getValue());
+            current = current.getNext();
+            if (current != null) {
+                System.out.print(" -> ");
+            }
+        }
+        System.out.println(" -> null");
+    }
+    
 }
